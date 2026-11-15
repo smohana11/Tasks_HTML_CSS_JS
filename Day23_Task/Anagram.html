@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagram</title>
+</head>
+<body>
+    <h2>Anagram or Not</h2>
+    <script>
+        let str1 = "race";
+        let str2 = "care";
+
+        let a = str1.split("").sort().join("");
+        let b = str2.split("").sort().join("");
+
+        if (a == b) {
+            console.log("Anagram");
+            document.write("Anagram");
+        }
+        else {
+            console.log("Not Anagram");
+            document.write("Not Anagram");
+        }
+    </script>
+</body>
+</html>

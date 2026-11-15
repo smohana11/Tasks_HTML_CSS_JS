@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+</head>
+<body>
+    <h2>Prime Number or Not</h2>
+    <script>
+        let num = 7;
+        let count = 0;
+        for (let i = 1; i <= num; i++) {
+            if (num % i == 0) {
+                count++;
+            }
+        }
+        if (count == 2) {
+            console.log("Prime Number");
+            document.write("Prime Number");
+        }
+        else {
+            console.log("Not Prime Number");
+            document.write("Not Prime Number");
+        }
+    </script>
+</body>
+</html>
